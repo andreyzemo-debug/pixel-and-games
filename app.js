@@ -997,7 +997,7 @@ const TELEGRAM_NOTIFY_CONFIG = {
   // URL of the small backend endpoint (see /server folder) that
   // actually talks to the Telegram Bot API. Leave empty ('') to
   // disable notifications entirely.
-  endpoint: 'http://localhost:3001/api/notify-registration',
+  endpoint: '/api/notify-registration',
 };
 
 function nextUserId(){
